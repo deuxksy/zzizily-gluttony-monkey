@@ -26,7 +26,7 @@ function MK_reservation() {
   );
   MK_INFO(elements.length);
   if (0 < elements.length) {
-    let lastElement = elements[elements.length - 1];
+    lastElement = elements[elements.length - 1];
     $(lastElement).select("fc-event-title").click();
   }
 }
